@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<assignments>
+
+    <assignments>
+
+        <assignment actorCount="20">
+            <run>./run-local scenario0 10</run>
+        </assignment>
+
+        <assignment actorCount="2">
+            <run>./run-local scenario1 10</run>
+        </assignment>
+
+        <assignment actorCount="2">
+            <run>./run-local scenario4 10</run>
+        </assignment>
+
+    </assignments>
+
+</assignments>

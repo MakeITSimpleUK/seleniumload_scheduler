@@ -1,0 +1,23 @@
+Firstly, the app needs to determine its id
+Once it knows its id, it looks up in the assignments file what to run
+Then it runs it
+Then it exits
+
+---------------------
+
+Detemining id
+
+2. If lock file is there, sleep a little and check again
+3. Try to create control file with my name as content. if this fails, sleep a little and goto step 2
+4. Check contents of control file. If is not mine, sleep a little and goto step 2
+5. Now we look at the nextid file. if it is not there, myid=1
+6. overwrite or create nextid file, and put in it myid+1
+7. remove the lock file
+
+
+
+-------------------------
+
+control/lock
+control/nextid
+control/assignments.xml
